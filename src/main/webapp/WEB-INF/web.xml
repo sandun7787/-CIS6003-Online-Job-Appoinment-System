@@ -1,0 +1,41 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UserRegisterAndLoginController</servlet-name>
+  	<display-name>UserRegisterAndLoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.codewithluck.controller.UserRegisterAndLoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminLoginController</servlet-name>
+  	<display-name>AdminLoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.codewithluck.controller.AdminLoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ConsulterLoginController</servlet-name>
+  	<display-name>ConsulterLoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.codewithluck.controller.ConsulterLoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserRegisterAndLoginController</servlet-name>
+  	<url-pattern>/UserRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserRegisterAndLoginController</servlet-name>
+  	<url-pattern>/getUserRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLoginController</servlet-name>
+  	<url-pattern>/AdminLoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ConsulterLoginController</servlet-name>
+  	<url-pattern>/ConsulterLogin</url-pattern>
+  </servlet-mapping>
+</web-app>
