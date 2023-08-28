@@ -59,7 +59,7 @@ public void adminLogin(HttpServletRequest request, HttpServletResponse response)
 				message="Admin Login is Successfully Confirmed!";
 
 				request.setAttribute("feedbackmessage",message);
-				RequestDispatcher rd=request.getRequestDispatcher("dashboard/AdminDashBoard.jsp");
+				RequestDispatcher rd=request.getRequestDispatcher("AdminDashBoard.jsp");
 				rd.forward(request, response);
 				
 				
